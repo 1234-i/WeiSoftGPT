@@ -8,7 +8,7 @@ docker build -t registry.cn-hangzhou.aliyuncs.com/fastgpt/fastgpt:v4.4.7 --build
 docker build -t registry.cn-hangzhou.aliyuncs.com/fastgpt/fastgpt:v4.4.7 --build-arg name=app --build-arg proxy=taobao .
 ```
 
-# Pg 常用索引
+# Pg 常用索引  不包含所有索引
 
 ```sql
 CREATE INDEX IF NOT EXISTS modelData_dataset_id_index ON modeldata (dataset_id);
